@@ -1,0 +1,23 @@
+.places {
+  margin: 0 15.625% 67px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 361px 361px;
+  column-gap: 17px;
+  row-gap: 20px;
+  align-items: center;
+}
+
+@media screen and (max-width: 1023px) {
+  .places {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .places {
+    grid-template-columns: 1fr;
+    margin-bottom: 48px;
+  }
+}
+

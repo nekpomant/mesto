@@ -1,0 +1,10 @@
+.place {
+  max-width: 282px;
+  height: 361px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+  margin: 0;
+}

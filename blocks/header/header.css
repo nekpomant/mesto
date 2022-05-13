@@ -1,0 +1,9 @@
+.header {
+  margin: 45px 15.625%;
+}
+
+@media screen and (max-width: 480px) {
+  .header {
+    margin: 28px 8.4375% 69.85px;
+  }
+}
